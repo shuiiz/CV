@@ -1,0 +1,486 @@
+body {
+	background:url(images/dark_wood.png);
+	font-size: 12px;
+	line-height: 16px;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Header
+------------------------------------------*/
+.headwrap {
+	max-width:760px;
+	width:85%;
+	margin-left:1em;
+}
+
+header {
+	margin-top:2%;
+}
+
+.head {
+	width:100%;
+}
+
+.contact-large {
+	display:none;
+}
+
+.intro {
+	max-width:760px;
+	border-radius: 15px 0 15px 0;
+	background:url(images/paper.png);
+	padding:1em;
+	margin-top:1em;
+	text-align:justify;
+}
+
+.bullet {
+	height:14px;
+	width:14px;
+	background:url(images/bullet.png);
+	display:inline-block;
+	margin-right:.3em;
+	margin-left:-1.5em;
+	margin-bottom:-.1em;
+}
+
+footer {
+	color:#FFFFFF;
+	text-align:center;
+	font-size:.7em;
+}
+
+/*Navigation
+------------------------------------------*/
+
+#buttons {
+	width:40px;
+	padding:0;
+	float: right;
+}
+
+.icons {
+	top:0;
+	list-style:none;
+	position:fixed;
+}
+
+.scroll:active {
+	position:relative;
+	top:1px;
+}
+
+.padding0 {
+	margin-top:.8em;
+	padding:0;
+	padding-bottom:.5em;
+}
+
+.iconpadding {
+	margin-right:.3em;
+	margin-bottom:-.1em;
+}
+
+.button0 {
+	width:40px;
+	height:80px;
+	display:block;
+	background-image: url(images/button0.png);
+}
+
+.button0:hover {
+	background-image:url(images/button0hover.png);
+}
+
+.button1 {
+	width:40px;
+	height:80px;
+	display:block;
+	background-image: url(images/button1.png);
+}
+
+.button1:hover {
+	background-image:url(images/button1hover.png);
+}
+
+.button2 {
+	width:40px;
+	height:80px;
+	display:block;
+	background-image: url(images/button2.png);
+}
+
+.button2:hover {
+	background-image:url(images/button2hover.png);
+}
+
+.button3 {
+	width:40px;
+	height:80px;
+	display:block;
+	background-image: url(images/button3.png);
+}
+
+.button3:hover {
+	background-image:url(images/button3hover.png);
+}
+
+.button4 {
+	width:40px;
+	height:80px;
+	display:block;
+	background-image: url(images/button4.png);
+}
+
+.button4:hover {
+	background-image:url(images/button4hover.png);
+}
+
+.button5 {
+	width:40px;
+	height:80px;
+	display:block;
+	background-image: url(images/button5.png);
+}
+
+.button5:hover {
+	background-image:url(images/button5hover.png);
+}
+
+ul {
+	padding:0;
+	margin:0;
+}
+
+ul li {
+	padding:.3em;
+	list-style:none;
+	text-align:justify;
+}
+
+/*Layout
+------------------------------------------*/
+
+h1 {
+	font-size:2em;
+	font-family: 'Orbitron', sans-serif;
+	margin-bottom:1em;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Orbitron', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.personal {
+	padding:0;
+	margin-left:1em;
+}
+
+.wrapper {
+	max-width:760px;
+	width:85%;
+	margin: 0 1em;
+}
+
+.contact {
+	max-width:760px;
+	border-radius: 15px 0 15px 0;
+	background:url(images/paper.png);
+	padding:1em;
+	margin-top:0.5em;
+}
+
+.wrapper2 {
+	max-width:760px;
+	border-radius: 15px 0 15px 0;
+	background:url(images/paper.png);
+	padding:1em;
+	margin-top:1em;
+}
+
+/*Screen Query Tablets >
+------------------------------------------*/
+
+@media screen and (min-width: 550px) {
+
+	body {
+		font-size:14px;
+		line-height: 17px;
+	}
+
+	#buttons{
+		display:none;
+	}
+	
+	header {
+		position:fixed;
+		top:0;
+		width:100%;
+		margin-top: 1em;
+	}
+
+	.head {
+		box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.75);
+	}
+
+	.headwrap {
+		max-width:760px;
+		margin:0 auto;
+	}
+
+	.wrapper {
+		max-width:740px;
+		margin: 0 auto;
+		padding:0;
+	}
+	
+	.bullet {
+		margin-right:.5em;
+	}
+
+	.intro {
+		max-width:740px;
+		border-radius: 15px 0 15px 0;
+		background:url(images/paper.png);
+		padding:1em;
+		margin-top:1em;
+	}
+	
+	a {
+		color:#6c5c35;
+	}
+
+	.contact {
+		max-width:740px;
+		border-radius: 15px 0 15px 0;
+		background:url(images/paper.png);
+		padding:1em;
+		margin-top:32%;
+	}
+
+	.wrapper2 {
+		max-width:740px;
+		border-radius: 15px 0 15px 0;
+		background:url(images/paper.png);
+		padding:1em;
+		margin-top:1em;
+	}
+
+	.goldline {
+		border:0;
+		height:2px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6c5c35+0,f4edb6+44,f4edb6+56,6c5c35+100 */
+		background: #6c5c35; /* Old browsers */
+		background: -moz-linear-gradient(left,  #6c5c35 0%, #f4edb6 44%, #f4edb6 56%, #6c5c35 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6c5c35), color-stop(44%,#f4edb6), color-stop(56%,#f4edb6), color-stop(100%,#6c5c35)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(left,  #6c5c35 0%,#f4edb6 44%,#f4edb6 56%,#6c5c35 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left,  #6c5c35 0%,#f4edb6 44%,#f4edb6 56%,#6c5c35 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(left,  #6c5c35 0%,#f4edb6 44%,#f4edb6 56%,#6c5c35 100%); /* IE10+ */
+		background: linear-gradient(to right,  #6c5c35 0%,#f4edb6 44%,#f4edb6 56%,#6c5c35 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c5c35', endColorstr='#6c5c35',GradientType=1 ); /* IE6-9 */
+	}
+
+	footer {
+		font-size:1em;
+	}
+}
+
+/*Screen Query Desktop >
+------------------------------------------*/
+
+@media screen and (min-width: 1100px) {
+
+	body {
+		font-size:14px;
+		line-height: 17px;
+	}
+	
+	.textsmall {
+		font-size:13px;
+	}
+
+	#buttons{
+		display:none;
+	}
+	
+	header {
+		position:fixed;
+		top:0;
+		width:100%;
+		margin-top: 1em;
+	}
+
+	.headwrap {
+		max-width:760px;
+		margin:0 auto;
+	}
+	
+	.head {
+		width:70%;
+		float:left;
+		box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.75);
+	}
+
+	.bullet {
+		margin-right:.5em;
+	}
+
+	.wrapper {
+		max-width:740px;
+		margin: 0 auto;
+		padding:0;
+	}
+
+	.contact-large {
+		color:#FFFFFF;
+		display:inline;
+		width:25%;
+		height:113px;
+		float:right;
+		max-width:200px;
+		background:url(images/contact.jpg);
+		padding:0 1em 2em;
+		box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.75);
+	}
+	
+	.goldline {
+		border:0;
+		height:2px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6c5c35+0,f4edb6+44,f4edb6+56,6c5c35+100 */
+		background: #6c5c35; /* Old browsers */
+		background: -moz-linear-gradient(left,  #6c5c35 0%, #f4edb6 44%, #f4edb6 56%, #6c5c35 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6c5c35), color-stop(44%,#f4edb6), color-stop(56%,#f4edb6), color-stop(100%,#6c5c35)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(left,  #6c5c35 0%,#f4edb6 44%,#f4edb6 56%,#6c5c35 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left,  #6c5c35 0%,#f4edb6 44%,#f4edb6 56%,#6c5c35 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(left,  #6c5c35 0%,#f4edb6 44%,#f4edb6 56%,#6c5c35 100%); /* IE10+ */
+		background: linear-gradient(to right,  #6c5c35 0%,#f4edb6 44%,#f4edb6 56%,#6c5c35 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c5c35', endColorstr='#6c5c35',GradientType=1 ); /* IE6-9 */
+	}
+
+	a {
+		color:#F4EDB6;
+	}
+
+	.contact {
+		display:none;
+	}
+	
+	.intro {
+		max-width:740px;
+		border-radius: 15px 0 15px 0;
+		background:url(images/paper.png);
+		padding:1em;
+		margin-top:23%;
+	}
+
+	.wrapper2 {
+		max-width:740px;
+		border-radius: 15px 0 15px 0;
+		background:url(images/paper.png);
+		padding:1em;
+		margin-top:1em;
+	}
+}
+
+/*Media Query - 350px and below>
+------------------------------------------*/
+
+@media screen and (max-width: 350px) {
+
+	.wrapper2 {
+		width:87%;
+	}
+
+	.head {
+		width:96%;
+	}
+
+	.contact {
+		width:87%;
+	}
+
+	.intro {
+		width:87%;
+	}
+}
+
+/*Print Query>
+------------------------------------------*/
+
+@media print {
+
+	body {
+		font-size: 12pt;
+		font-family: arial;
+		line-height: 12pt;
+	}
+	
+	p, li {
+		font-size: 10pt;
+		font-family:arial;
+		line-height: 10pt;
+	}
+	
+	h2 {
+		font-size: 12pt;
+		font-family:arial;
+	}
+
+	#buttons{
+		display:none;
+	}
+
+	.head {
+		width:100%;
+		margin:0 auto;
+	}
+
+	.wrapper {
+		width:100%;
+		margin: 0 auto;
+	}
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
